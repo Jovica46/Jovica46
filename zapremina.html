@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Program za računanje zapremine valjka</title>
+</head>
+
+<body>
+
+    <script>
+
+        
+        var r = prompt("Unesite poluprečnik osnove valjka");
+        var H = prompt("Unesite visinu valjka");
+        const π = 3.14;
+        
+        var volume = r ** 2 * π * H ;
+
+        var twovolume = volume.toFixed(2);
+
+        alert("Zapremina valjka je: " + twovolume);
+
+        document.write("Zapremina valjka je: " + twovolume);
+
+    </script>
+
+</body>
+</html>
